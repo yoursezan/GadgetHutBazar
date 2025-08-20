@@ -6,6 +6,7 @@ import ServicesSection from '../component/Services'
 import OurSpecials from '../component/OurSpecials'
 import LiveClock from '../component/LiveClock'
 import BrandsShop from '../component/BrandsShop'
+import Testimonials from '../component/Testimonials'
 
 export default function Homepage() {
   return (
@@ -17,6 +18,7 @@ export default function Homepage() {
         <OurSpecials/>
         <LiveClock/>
         <BrandsShop/>
+        <Testimonials/>
 
     
     </div>
