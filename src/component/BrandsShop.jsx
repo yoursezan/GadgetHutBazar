@@ -37,7 +37,8 @@ export default function BrandsShop() {
           {brands.map((brand, idx) => (
             <Col key={idx}>
               <Card className="shadow-sm text-center">
-                <Card.Img
+                
+                <Card.Img 
                   variant="top"
                   src={brand.image}
                   alt={brand.name}

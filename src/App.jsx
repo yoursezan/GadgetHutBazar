@@ -17,8 +17,7 @@ function App() {
       <HeaderNav/>
       <Routes>
         
-        <Route path="/" element={ <Homepage/> } />
-
+        <Route path="/home" element={ <Homepage/> } />
         <Route path="/products" element={<ProductsPage />} />
 
       </Routes>

@@ -28,7 +28,7 @@ export default function OurSpecials() {
                 style={{ borderRadius: "15px" }}
               >
                 <div style={{ position: "relative" }}>
-                  <Card.Img
+                  <Card.Img class="rounded-xl object-contain lg:h-[100px] h-[30px]  w-full p-5"
                     variant="top"
                     src={item.image}
                     alt={item.name}
@@ -41,7 +41,7 @@ export default function OurSpecials() {
                     }}
                   />
 
-                  <span
+                  <span 
                     style={{
                       position: "absolute",
                       top: "10px",
@@ -54,7 +54,7 @@ export default function OurSpecials() {
                     ${item.price}
                   </span>
                 </div>
-                <Card.Body>
+                <Card.Body class='items-center text-center'>
                   <Card.Title className="fw-bold">{item.name}</Card.Title>
                   <Card.Text style={{ fontSize: "14px" }}>
                     {item.description}

@@ -86,7 +86,7 @@ export default function ProductsPage() {
                 }}
               >
                 <div style={{ position: "relative" }}>
-                  <Card.Img
+                  <Card.Img  class="rounded-xl object-contain lg:h-[100px] h-[30px]  w-full p-5"
                     variant="top"
                     src={item.image}
                     alt={item.name}
@@ -112,7 +112,7 @@ export default function ProductsPage() {
                     {item.price} taka
                   </span>
                 </div>
-                <Card.Body className="d-flex flex-column">
+                <Card.Body className="d-flex flex-column items-center text-center">
                   <Card.Title className="fw-bold">{item.name}</Card.Title>
                   <Card.Text style={{ fontSize: "14px", flexGrow: 1 }}>
                     {item.description}

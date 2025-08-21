@@ -17,7 +17,7 @@ export default function HeaderNav() {
         <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
         
-        <Navbar.Brand href="/">GadgetHutBazar</Navbar.Brand>
+        <Navbar.Brand href="/home">GadgetHutBazar</Navbar.Brand>
 
          
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -25,7 +25,7 @@ export default function HeaderNav() {
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
           
           <Nav className="align-items-center">
-            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="/home">Home</Nav.Link>
             <Nav.Link href="#about">About</Nav.Link>
             <Nav.Link href="/products">Product</Nav.Link>
             <Nav.Link href="#contact">Contact</Nav.Link>
