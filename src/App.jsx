@@ -13,8 +13,10 @@ import HeaderNav from "./component/HeaderNav";
 function App() {
   return (
     
+    <>
+    <HeaderNav/>
     <Router>
-      <HeaderNav/>
+      
       <Routes>
         
         <Route path="/home" element={ <Homepage/> } />
@@ -22,6 +24,7 @@ function App() {
 
       </Routes>
     </Router>
+    </>
   );
 }
 
