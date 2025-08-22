@@ -17,7 +17,7 @@ export default function HeaderNav() {
         <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
         
-        <Navbar.Brand href="/home">GadgetHutBazar</Navbar.Brand>
+        <Navbar.Brand href="/home"><span style={{ color: "#2196F3" }}>Gadget</span><span style={{ color: "#f38721ff" }}>Hut</span>Bazar</Navbar.Brand>
 
          
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

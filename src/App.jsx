@@ -1,21 +1,16 @@
 
-  
 import "bootstrap/dist/css/bootstrap.min.css";
-
- 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
- 
 import ProductsPage from './pages/ProductsPage';
- 
 import Homepage from "./pages/Homepage";
 import HeaderNav from "./component/HeaderNav";
+import FooterLow from "./component/FooterLow";
 
 function App() {
   return (
     
-    <>
-    <HeaderNav/>
     <Router>
+      <HeaderNav/>
       
       <Routes>
         
@@ -23,8 +18,10 @@ function App() {
         <Route path="/products" element={<ProductsPage />} />
 
       </Routes>
+      <FooterLow/>
     </Router>
-    </>
+    
+    
   );
 }
 

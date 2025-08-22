@@ -59,7 +59,7 @@ export default function Herosection() {
           </Col>
           <Col md={6} className="text-center">
             <img
-              src="https://m.media-amazon.com/images/I/61pIzNaNRWL.jpg"
+              src="https://file.aiquickdraw.com/imgcompressed/img/compressed_10bc64b044f7b628ae9c772d27355c0e.webp"
               alt="Smartwatch"
               style={{ width: "300px", borderRadius: "12px" }}
             />

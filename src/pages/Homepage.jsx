@@ -8,6 +8,7 @@ import LiveClock from '../component/LiveClock'
 import BrandsShop from '../component/BrandsShop'
 import Testimonials from '../component/Testimonials'
 
+
 export default function Homepage() {
   return (
     <div>
@@ -19,6 +20,8 @@ export default function Homepage() {
         <LiveClock/>
         <BrandsShop/>
         <Testimonials/>
+        
+
  
     
     </div>
