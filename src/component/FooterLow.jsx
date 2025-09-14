@@ -7,7 +7,7 @@ export default function FooterLow() {
     <footer style={{ backgroundColor: "#92c7f8ff", padding: "40px 0 0 0" }}>
       <Container fluid>
         <Row className="gy-4 px-5">
-          {/* Contact Us */}
+           
           <Col md={3}>
             <h5 className="fw-bold mb-3">Contact Us</h5>
             <p><FaMapMarkerAlt className="me-2" /> Mohammedpur, Dhaka, 1235</p>
@@ -15,7 +15,7 @@ export default function FooterLow() {
             <p><FaEnvelope className="me-2" /> gedgethutbazar@gmail.com</p>
           </Col>
 
-          {/* Quick Links */}
+           
           <Col md={2}>
             <h5 className="fw-bold mb-3">Quick Links</h5>
             <ul className="list-unstyled">

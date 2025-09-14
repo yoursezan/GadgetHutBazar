@@ -12,10 +12,10 @@ import gadgetsData from "../Api/gadgets_with_rating.json";
 
 export default function ProductsPage() {
   const [gadgets, setGadgets] = useState([]);
-  const [sortOption, setSortOption] = useState("rating"); // default sort by rating
+  const [sortOption, setSortOption] = useState("rating");  
 
   useEffect(() => {
-    handleSort("rating"); // initial sort by rating
+    handleSort("rating");  
   }, []);
 
   const handleSort = (option) => {

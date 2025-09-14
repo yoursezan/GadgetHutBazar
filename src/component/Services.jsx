@@ -28,7 +28,7 @@ export default function ServicesSection() {
         }}
       />
 
-      {/* Content on top of blur */}
+       
       <Container style={{ position: "relative", zIndex: 2 }}>
         <Row className="g-4">
           <Col md={3} sm={6}>
@@ -61,7 +61,7 @@ export default function ServicesSection() {
   );
 }
 
-// Reusable Service Card
+
 function ServiceCard({ icon, text }) {
   return (
     <Card

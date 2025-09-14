@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
-import gadgets from "../Api/gadgets_with_rating.json"; // <-- adjust path if needed
+import gadgets from "../Api/gadgets_with_rating.json";  
 
 export default function BrandsShop() {
   const [brands, setBrands] = useState([]);
-  const [showAll, setShowAll] = useState(false); // toggle state
+  const [showAll, setShowAll] = useState(false);  
 
   useEffect(() => {
     const uniqueBrands = [];
@@ -15,7 +15,7 @@ export default function BrandsShop() {
         brandMap.set(item.brand, true);
         uniqueBrands.push({
           name: item.brand,
-          image: item.brandImage, // <-- ensure JSON has this field
+          image: item.brandImage,  
         });
       }
     });
@@ -23,7 +23,7 @@ export default function BrandsShop() {
     setBrands(uniqueBrands);
   }, []);
 
-  // Determine brands to display
+   
   const displayedBrands = showAll ? brands : brands.slice(0, 4);
 
   return (
